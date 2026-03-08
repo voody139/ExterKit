@@ -17,7 +17,7 @@ def _load_exterkit():
     if not os.path.exists(ek_path):
         try:
             # Ссылка на RAW файл с вашего GitHub
-            url = "https://raw.githubusercontent.com/voodyminingg/exterkit/main/exterkit.py"
+            url = "https://raw.githubusercontent.com/voody139/ExterKit/main/exterkit.py"
             urllib.request.urlretrieve(url, ek_path)
         except Exception as e:
             print(f"ExterKit download failed: {e}")
